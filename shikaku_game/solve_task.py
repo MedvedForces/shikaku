@@ -1,4 +1,4 @@
-from find_objects import find_regions
+from .find_objects import find_regions
 
 def enumeration(current_number, numbered, variants,
                     used, current_solve, map, all_solves, max_solves_count = None):

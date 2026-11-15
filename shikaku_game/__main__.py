@@ -1,11 +1,7 @@
-from neighbors import neighbors
-from generate import generate_cell_map, generate_full_map
-from validate import validate
-from solve_task import solve
-from find_objects import find_regions
-import random
-import shikaku_map
-from shikaku_map import print_map
+from .generate import generate_full_map
+from .solve_task import solve
+from .validate import validate
+from .shikaku_map import print_map
 
 def main():
     print(f"Привет, это игра shikaku на поле из шестиугольников.\n"

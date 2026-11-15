@@ -1,4 +1,4 @@
-import shikaku_map
+from . import shikaku_map
 
 def neighbors(cell, map):
     x, y = cell

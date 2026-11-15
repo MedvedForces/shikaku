@@ -1,4 +1,4 @@
-from neighbors import neighbors
+from .neighbors import neighbors
 import random
 
 def generate_cell_map(radius):

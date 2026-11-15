@@ -1,4 +1,4 @@
-from neighbors import neighbors
+from .neighbors import neighbors
 
 def dfs(region, start_cells_in_map, size, map, ans):
     if len(region) == size:

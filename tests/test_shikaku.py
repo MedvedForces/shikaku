@@ -1,8 +1,8 @@
 import unittest
-from generate import generate_cell_map, generate_full_map
-from validate import validate
-from find_objects import find_regions
-from solve_task import solve
+from shikaku_game.generate import generate_cell_map, generate_full_map
+from shikaku_game.validate import validate
+from shikaku_game.find_objects import find_regions
+from shikaku_game.solve_task import solve
 
 class Tests(unittest.TestCase):
 
